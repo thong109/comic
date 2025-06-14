@@ -76,9 +76,7 @@
                  </li>
              </ul>
 
-             <div class="col-12"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
-                         alt="Creative Commons License" style="border-width:0;margin-bottom: 10px"
-                         src="./assets/images/88x31.png"></a><br>
+             <div class="col-12"></a><br>
                  <p>Website hoạt động dưới Giấy phép truy cập mở <a rel="license"
                          class="text-decoration-none text-dark hover-title"
                          href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0

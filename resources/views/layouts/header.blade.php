@@ -1,8 +1,8 @@
     <header class="header d-none d-lg-block">
         <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg navbar-dark header__navbar p-md-0">
+        <nav class="navbar navbar-expand-lg navbar-dark header__navbar py-2">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{ route('home') }}">
                     TheComic
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,7 +47,7 @@
     <div class="header-mobile d-sm-block d-lg-none">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{ route('home') }}">
                     TheComic
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"

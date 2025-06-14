@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ComicController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use Intervention\Image\Facades\Image;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/truyen-tranh/{slug}', [ComicController::class, 'show'])->name('comic.show');
+Route::get('/truyen-tranh/{slugName}/chuong-{slug}', [ComicController::class, 'read'])->name('comic.read');
+Route::get('/the-loai/{slug}', [CategoryController::class, 'show'])->name('category.show');
 
 
 Route::get('/dashboard', function () {
